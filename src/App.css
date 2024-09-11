@@ -23,10 +23,11 @@
 }
 
 .nav-bar {
-  background-color: rgb(255, 0, 0);
+  position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 9.115vw;
 }
 
 .nav-bar ul {
@@ -35,6 +36,12 @@
   list-style: none;
   display: flex;
   gap: 8.828vw;
+}
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .menu-background {

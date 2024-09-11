@@ -41,6 +41,7 @@ const Menu = () => {
         src={require("../img/tojby_cropped 1.jpg")}
         alt="beach"
       ></img>
+      <NavBar />
     </div>
   );
 };
