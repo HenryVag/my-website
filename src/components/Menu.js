@@ -1,14 +1,15 @@
 import React from "react";
+import tobjy from "../img/tojby.jpg";
 
-const NavButton = () => {
+const NavButton = (prop) => {
   const testNavButton = () => {
-    console.log("NavButton pressed");
+    console.log(`${prop.title} button pressed`);
   };
 
   return (
     <div>
       <button className="nav-button" onClick={testNavButton}>
-        NavBtn
+        {prop.title}
       </button>
     </div>
   );
@@ -19,13 +20,13 @@ const NavBar = () => {
     <nav className="nav-bar">
       <ul>
         <li>
-          <NavButton />
+          <NavButton title="About Me" />
         </li>
         <li>
-          <NavButton />
+          <NavButton title="Motorcycle Maintenance Manager" />
         </li>
         <li>
-          <NavButton />
+          <NavButton title="Tinkering" />
         </li>
       </ul>
     </nav>
