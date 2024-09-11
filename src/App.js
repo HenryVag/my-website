@@ -1,13 +1,13 @@
 
 import './App.css';
-import { NavButton } from './components/Menu'
+import { NavButton, NavBar } from './components/Menu'
 
 
 
 function App() {
   return (
     <div className="App">
-      <NavButton/>
+      <NavBar/>
     </div>
   );
 }

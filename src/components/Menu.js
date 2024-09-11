@@ -1,43 +1,39 @@
-import React, {Button} from 'react'
-
-
+import React from "react";
 
 const NavButton = () => {
-    
-    const testNavButton = () => {
-        console.log("NavButton pressed")
-    }
-
+  const testNavButton = () => {
+    console.log("NavButton pressed");
+  };
 
   return (
     <div>
-      <button className = "nav-button" onClick={testNavButton}> test </button>
+      <button className="nav-button" onClick={testNavButton}>
+        NavBtn
+      </button>
     </div>
-  )
-}
-
-
-
-
-
+  );
+};
 
 const NavBar = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
-
-
-
+    <nav className="nav-bar">
+      <ul>
+        <li>
+          <NavButton />
+        </li>
+        <li>
+          <NavButton />
+        </li>
+        <li>
+          <NavButton />
+        </li>
+      </ul>
+    </nav>
+  );
+};
 
 const Menu = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+  return <div></div>;
+};
 
-export {Menu, NavButton, NavBar}
+export { Menu, NavButton, NavBar };
