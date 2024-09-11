@@ -36,3 +36,13 @@
   display: flex;
   gap: 8.828vw;
 }
+
+.menu-background {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75vw;
+  height: 17.5vw;
+  filter: blur(1px);
+  border-radius: 5px;
+}

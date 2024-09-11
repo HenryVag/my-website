@@ -34,7 +34,15 @@ const NavBar = () => {
 };
 
 const Menu = () => {
-  return <div></div>;
+  return (
+    <div className="menu">
+      <img
+        className="menu-background"
+        src={require("../img/tojby_cropped 1.jpg")}
+        alt="beach"
+      ></img>
+    </div>
+  );
 };
 
 export { Menu, NavButton, NavBar };
