@@ -20,6 +20,7 @@
   font-family: "Lateef";
   font-weight: 400;
   font-size: 2.083vw;
+  filter: drop-shadow(1px 1px black);
 }
 
 .nav-bar {
@@ -28,6 +29,7 @@
   align-items: center;
   justify-content: center;
   margin-top: 9.115vw;
+  z-index: 2;
 }
 
 .nav-bar ul {
@@ -44,6 +46,16 @@
   align-items: center;
 }
 
+.menu-header {
+  font-family: "Lateef";
+  font-weight: 400;
+  margin-top: 0px;
+  color: white;
+  position: absolute;
+  font-size: 128px;
+  z-index: 2;
+  filter: drop-shadow(2px 1px black);
+}
 .menu-background {
   display: block;
   margin-left: auto;
@@ -52,4 +64,5 @@
   height: 17.5vw;
   filter: blur(1px);
   border-radius: 5px;
+  z-index: 1;
 }

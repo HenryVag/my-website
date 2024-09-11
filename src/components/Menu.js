@@ -36,6 +36,7 @@ const NavBar = () => {
 const Menu = () => {
   return (
     <div className="menu">
+      <h1 className="menu-header"> Henry Våg</h1>
       <img
         className="menu-background"
         src={require("../img/tojby_cropped 1.jpg")}
