@@ -1,10 +1,13 @@
 import "./App.css";
-import { NavButton, NavBar, Menu } from "./components/Menu";
+import { Menu } from "./components/Menu";
+
+import AboutMe from "./components/AboutMe.js";
 
 function App() {
   return (
     <div className="App">
       <Menu />
+      <AboutMe />
     </div>
   );
 }

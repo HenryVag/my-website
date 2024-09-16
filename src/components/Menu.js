@@ -1,5 +1,4 @@
 import React from "react";
-import tobjy from "../img/tojby.jpg";
 
 const NavButton = (prop) => {
   const testNavButton = () => {
@@ -47,4 +46,4 @@ const Menu = () => {
   );
 };
 
-export { Menu, NavButton, NavBar };
+export { Menu };
