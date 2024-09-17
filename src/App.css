@@ -20,7 +20,7 @@
   font-family: "Lateef";
   font-weight: 400;
   font-size: 2.083vw;
-  filter: drop-shadow(1px 1px black);
+  filter: drop-shadow(0.052vw 0.052vw black);
 }
 
 .nav-bar {
@@ -49,20 +49,20 @@
 .menu-header {
   font-family: "Lateef";
   font-weight: 400;
-  margin-top: 0px;
+  margin-top: 0;
   color: white;
   position: absolute;
-  font-size: 128px;
+  font-size: 6.667vw;
   z-index: 2;
-  filter: drop-shadow(2px 1px black);
+  filter: drop-shadow(0.2vw 0.052vw black);
 }
 .menu-background {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 12.5vw;
+  margin-right: 12.5vw;
   width: 75vw;
-  height: 17.5vw;
-  filter: blur(1px);
+  height: 17.188vw;
+  filter: blur(0.052vw);
   border-radius: 5px;
   z-index: 1;
 }
@@ -72,25 +72,26 @@
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
+  margin-left: 12.5vw;
+  margin-right: 12.5vw;
 }
 
 .about-me-text-container {
   flex: 1;
-  margin-top: 246px;
+  margin-top: 12.812vw;
   font-family: "Lateef";
-  margin-left: 12.5vw;
-  margin-right: 42px;
+  margin-right: 2.188vw;
   background-color: rgb(246, 241, 241);
   border-radius: 5px;
-  height: 468px;
-  padding-right: 2vw;
+  width: 54.427vw;
+  height: 24.375vw;
 }
 
 .about-me-header {
   padding-left: 1.576vw;
-  margin-top: 17px;
-  margin-bottom: 20px;
-  font-size: 64px;
+  margin-top: 0.885vw;
+  margin-bottom: 1.042vw;
+  font-size: 3.333vw;
   font-weight: 400;
 }
 
@@ -98,15 +99,49 @@
   padding-left: 1.576vw;
   padding-right: 1.576vw;
   margin-top: 2.083vw;
-  font-size: 24px;
+  font-size: 1.25vw;
   font-weight: 300;
 }
 
 .about-me-image {
-  height: 474px;
-  width: 353px;
+  height: 24.375vw;
+  width: 18.385vw;
   margin-left: auto;
-  margin-right: 240px;
-  margin-top: 246px;
+  margin-top: 12.812vw;
   border-radius: 5px;
+}
+
+.contact-container {
+  display: flex;
+
+  background-color: rgb(246, 241, 241);
+  font-family: "Lateef";
+  margin-top: 17.969vw;
+  align-items: left;
+  justify-content: space-between;
+}
+
+.contact-me-text-container {
+  margin-left: 12.5vw;
+}
+
+.contact-header {
+  font-weight: 300;
+  font-size: 1.875vw;
+  padding-top: 0.99vw;
+  margin-top: 0.99vw;
+  margin-bottom: 0vw;
+  height: 2.604vw;
+}
+
+.contact-text {
+  font-weight: 300;
+  font-size: 1.25vw;
+}
+
+.contact-img {
+  height: 6.406vw;
+  margin-right: 12.5vw;
+  margin-left: auto;
+  align-self: center;
 }
